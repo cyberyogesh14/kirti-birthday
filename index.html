@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Kirti 🎂</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Confetti library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <!-- CURTAIN (Parda) -->
+    <div class="curtain" id="curtain">
+        <div class="curtain-panel left"></div>
+        <div class="curtain-panel right"></div>
+        <div class="curtain-text">
+            <h2>Kirti,</h2>
+            <p>Tap to open your birthday surprise 🎁</p>
+            <button id="openBtn">OPEN</button>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT (jo parda hatne ke baad dikhega) -->
+    <main class="main-content hidden">
+        <section class="hero">
+            <h1>Happy Birthday Kirti 🎂</h1>
+            <p class="subtitle">Made with love by your brother Yogesh ❤️</p>
+        </section>
+
+        <section class="message">
+            <h2>Dear Kirti,</h2>
+            <p>
+                Tu sirf meri behen nahi, meri sabse special dost hai.  
+                Teri smile se ghar ka saara mood change ho jata hai.  
+                Dua hai hamesha khush rahe, healthy rahe aur jo bhi sapne dekhe,
+                sab ek ek karke poore ho jaayen. 💫
+            </p>
+        </section>
+
+        <!-- SLIDESHOW -->
+        <section class="gallery">
+            <div class="slides">
+                <!-- Yahan apni images lagani hain -->
+                <img src="images/img1.jpg" class="slide active" alt="Kirti 1">
+                <img src="images/img2.jpg" class="slide" alt="Kirti 2">
+                <img src="images/img3.jpg" class="slide" alt="Kirti 3">
+                <img src="images/img4.jpg" class="slide" alt="Kirti 4">
+                <img src="images/img5.jpg" class="slide" alt="Kirti 5">
+            </div>
+        </section>
+
+        <section class="footer-note">
+            <p>Hamesha yaad rakhna:  
+            <strong>tera bhai Yogesh hamesha tere saath hai 🤍</strong></p>
+        </section>
+    </main>
+
+    <!-- Optional: background music (file ko khud rakhna) -->
+    <!-- <audio id="bg-music" src="music.mp3"></audio> -->
+
+    <script src="script.js" defer></script>
+</body>
+</html>
